@@ -1,0 +1,45 @@
+{
+  "fields": {
+    "summary": "New Symptom Tracking Submission",
+    "project": {
+      "id": "10077"
+    },
+    "issuetype": {
+      "id": "10101"
+    },
+    "customfield_10146": [
+      {
+        "value": "@{outputs('Get_response_details')?['body/rd56c834893a64bf896a86bda92ff38a1']}"
+      }
+    ],
+    "customfield_10199": [
+      {
+        "value": "@{replace(outputs('Get_response_details')?['body/ra010dd5a6565435cae9af38e8039ef59'],'\',' ')}"
+      }
+    ],
+    "customfield_10200": {
+      "value": "@{outputs('Get_response_details')?['body/r90f5ff7e42af4697b6193ecb39402444']}"
+    },
+    "customfield_10201": {
+      "value": "@{outputs('Get_response_details')?['body/r68759ef0c6584ec6bf2d4f4dcac1da03']}"
+    },
+    "customfield_10202": {
+      "value": "@{outputs('Get_response_details')?['body/r44e2135559bf46b18929e9d713336a54']}"
+    },
+    "description": {
+      "version": 1,
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "VALUE FROM MS FLOW"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
